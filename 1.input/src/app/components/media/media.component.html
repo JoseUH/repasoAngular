@@ -1,0 +1,10 @@
+<section>
+  <h2>{{juegos.title}}</h2>
+  <ul>
+    @for(juego of juegos.videogames;track $index){
+      <li>
+        <img src="{{juego.src}}" alt="{{juego.alt}}">
+      </li>
+    }
+  </ul>
+</section>

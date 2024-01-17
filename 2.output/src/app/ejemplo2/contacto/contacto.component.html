@@ -1,0 +1,9 @@
+@for(contacto of listado;track $index){
+  <!-- primer campo la clase de scss y segundo campo la condicion, despues de la coma el else.. -->
+<div [ngClass]="{vivo: contacto.isAlive, muerto:!contacto.isAlive}">
+  <h4>{{contacto.name}}</h4>
+  <p>{{contacto.email}}</p>
+  <p>{{contacto.telefon}}</p>
+</div>
+}
+

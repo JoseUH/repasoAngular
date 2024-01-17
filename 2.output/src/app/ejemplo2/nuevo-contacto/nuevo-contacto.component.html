@@ -1,0 +1,15 @@
+<input type="text" placeholder="name" [(ngModel)]="contacto.name"/>
+<input type="text" placeholder="telefon"
+[(ngModel)]="contacto.telefon"/>
+<input type="text" placeholder="email"
+[(ngModel)]="contacto.email"/>
+
+<button (click)="enviarNuevoContacto()">Añadir</button>
+
+<div>
+  <h4>{{contacto.name}}</h4>
+  <p>{{contacto.email}}</p>
+  <p>{{contacto.telefon}}</p>
+</div>
+
+
