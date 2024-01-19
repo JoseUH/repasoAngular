@@ -1,0 +1,40 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "name": "Rick Sanchez",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Morty Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Summer Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Beth Smith",
+      "status": "Alive",
+      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+    },
+    {
+      "id": "5a4b",
+      "status": "alive",
+      "name": "el gato valiente",
+      "image": "https://i.pinimg.com/736x/41/8e/dd/418edd2c57ebc2831a3527231776d6ad.jpg"
+    },
+    {
+      "id": "0d37",
+      "status": "alive",
+      "name": "babe el cerdido valiente",
+      "image": "sdsdsds"
+    }
+  ]
+}

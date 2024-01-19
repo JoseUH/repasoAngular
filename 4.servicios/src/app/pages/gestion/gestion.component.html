@@ -1,0 +1,8 @@
+<input type="text" placeholder="name" [(ngModel)]="character.name">
+<input type="text" placeholder="status" [(ngModel)]="character.status">
+<input type="text" placeholder="image" [(ngModel)]="character.image">
+<!-- https://i.pinimg.com/736x/41/8e/dd/418edd2c57ebc2831a3527231776d6ad.jpg -->
+<button (click)="addCharacter()">Añadir Nuevo Personaje</button>
+<h3>{{character.name}}</h3>
+  <img src="{{character.image}}" alt="{{character.name}}">
+  <p>Status:{{character.status}}</p>
